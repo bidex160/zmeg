@@ -297,3 +297,20 @@ button { font-family: inherit; cursor: pointer; }
   margin-bottom: 12px;
   filter: brightness(0) invert(1); /* makes dark logo white on dark footer */
 }
+/* ---------- BREADCRUMB BANNER ---------- */
+.breadcrumb-banner {
+  position: relative; height: 260px; background-size: cover; background-position: center;
+  display: flex; align-items: flex-end; overflow: hidden;
+}
+.breadcrumb-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(20deg, rgba(11,31,51,0.2) 0%, rgba(11,31,51,0.4) 100%);
+}
+.breadcrumb-inner { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; width: 100%; padding: 0 24px 30px; color: #fff; }
+.breadcrumb-inner h1 { font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin: 0 0 10px; text-align: left; }
+.breadcrumb-trail { display: flex; align-items: center; gap: 6px; font-size: 13px; font-family: 'IBM Plex Mono', monospace; }
+.breadcrumb-item { display: inline-flex; align-items: center; gap: 6px; color: #C7D3DE; }
+.breadcrumb-trail a { color: #C7D3DE; }
+.breadcrumb-trail a:hover { color: var(--amber); }
+.breadcrumb-current { color: var(--amber); }
+@media (max-width: 640px) { .breadcrumb-banner { height: 190px; } }

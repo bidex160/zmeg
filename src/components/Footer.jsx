@@ -38,9 +38,10 @@ export default function Footer() {
 
         <div className="footer-col">
           <h4>Reach Us</h4>
-          <p><Mail size={14} /> sales@zmeg-machinery.com</p>
-          <p><Phone size={14} /> +86 183 9685 7273</p>
-          <p><MapPin size={14} /> High-tech District, Jinan City, Shandong, China</p>
+          <p><Mail size={14} /> sales@zmeg-group.com</p>
+          <p><MapPin size={14} /> 
+          No. 99, Wuxing West Road, Cao'e Street, Shangyu District Hangzhou, Zhejiang, 312352 China
+          </p>
         </div>
       </div>
       <div className="footer-bottom">
@@ -49,3 +50,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+

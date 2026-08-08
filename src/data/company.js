@@ -2,7 +2,7 @@
 export const COMPANY = {
   fullName: "Zhejiang Machinery & Electric Group Co., Ltd.",
   short: "ZMEG",
-  about: "ZMEG mainly manufactures and sells CNC routers, laser engraving, marking and cutting machines, wood lathe machines, fiber cutting machines, plasma cutting machines, 3D scanners, and more.",
+  about: "ZMEG mainly manufactures and sells CNC routers, laser engraving, marking and cutting machines, wood lathe machines, fiber cutting machines, plasma cutting machines, FreeScan, and more.",
   pillars: [
     {
       title: "Good Quality",

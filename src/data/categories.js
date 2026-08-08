@@ -1,25 +1,80 @@
 // Product catalog data for ZMEG — 5 categories, 18 models
+import ZMEGFreeScanUENovalogo from './../assets/products/ZMEG FreeScan UE Nova.png'
+import ZMEGFreeScanUENovalogo1 from './../assets/products/ZMEG FreeScan UE Nova-1.png'
+import VPG2 from './../assets/products/VPG-2.png'
+import ZMEGFreeScanUEPro2 from './../assets/products/ZMEG FreeScan UE Pro2.png'
+import ZMEGFreeScanUEPro22 from './../assets/products/ZMEG FreeScan UE Pro2-2.png'
+import ZMEGFreeScanUEPro from './../assets/products/ZMEG FreeScan UE Pro.png'
+import ZMEGFreeScanUEPro1 from './../assets/products/ZMEGFreeScanUEPro-1.png'
+import ZMEGFreeScanUEPro23 from './../assets/products/ZMEGFreeScanUEPro-2.jpg'
+import ZMEGOptimScanQ12Q9 from './../assets/products/ZMEG OptimScan Q12 _ Q9.png'
+import ZMEGOptimScanQ12Q91 from './../assets/products/ZMEG OptimScan Q12 _ Q9-1.png'
+import ZMEGOptimScanQ12Q92 from './../assets/products/ZMEGOptimScanQ12Q92.webp'
+import CNCRouter1 from './../assets/products/CNC Router1.png'
+import CNCRouter2 from './../assets/products/CNC Router2.png'
+import CNCRouter3 from './../assets/products/CNC Router3.png'
+import CNCRouter4 from './../assets/products/CNC Router4.png'
+import CNCRouter5 from './../assets/products/CNC Router5.png'
+import CNCRouter6 from './../assets/products/CNC Router6.png'
+import CNCRouter7 from './../assets/products/CNC Router7.png'
+import CNCRouter8 from './../assets/products/CNC Router8.png'
+import CNCRouter9 from './../assets/products/CNC Router9.png'
+
+import FiberLaserCuttingMachine1 from './../assets/products/Fiber Laser Cutting Machine1.png'
+import FiberLaserCuttingMachine2 from './../assets/products/Fiber Laser Cutting Machine2.png'
+import FiberLaserCuttingMachine3 from './../assets/products/Fiber Laser Cutting Machine3.png'
+import FiberLaserCuttingMachine4 from './../assets/products/Fiber Laser Cutting Machine4.png'
+import FiberLaserCuttingMachine5 from './../assets/products/Fiber Laser Cutting Machine5.png'
+import FiberLaserCuttingMachine6 from './../assets/products/Fiber Laser Cutting Machine6.png'
+import FiberLaserCuttingMachine7 from './../assets/products/Fiber Laser Cutting Machine7.png'
+import FiberLaserCuttingMachine8 from './../assets/products/Fiber Laser Cutting Machine8.png'
+
+import DScanners1 from './../assets/products/3D Scanners1.png'
+import DScanners2 from './../assets/products/3D Scanners1.png'
+import DScanners3 from './../assets/products/3D Scanners1.png'
+
+
+import WoodLatheMachine1 from './../assets/products/Wood Lathe Machine1.png'
+import WoodLatheMachine2 from './../assets/products/Wood Lathe Machine2.png'
+import WoodLatheMachine3 from './../assets/products/Wood Lathe Machine3.png'
+import WoodLatheMachine4 from './../assets/products/Wood Lathe Machine4.png'
+import WoodLatheMachine5 from './../assets/products/Wood Lathe Machine5.png'
+import WoodLatheMachine6 from './../assets/products/Wood Lathe Machine6.png'
+import WoodLatheMachine7 from './../assets/products/Wood Lathe Machine8.png'
+import WoodLatheMachine8 from './../assets/products/Wood Lathe Machine8.png'
+import WoodLatheMachine9 from './../assets/products/Wood Lathe Machine9.png'
+
+
+import LaserMarkingMachine1 from './../assets/products/Laser Marking Machine1.png'
+import LaserMarkingMachine2 from './../assets/products/Laser Marking Machine2.png'
+import LaserMarkingMachine3 from './../assets/products/Laser Marking Machine3.png'
+import LaserMarkingMachine4 from './../assets/products/Laser Marking Machine4.png'
+import LaserMarkingMachine5 from './../assets/products/Laser Marking Machine5.png'
+import LaserMarkingMachine6 from './../assets/products/Laser Marking Machine6.png'
+import LaserMarkingMachine7 from './../assets/products/Laser Marking Machine7.png'
+
+
 export const CATEGORIES = [
   {
     slug: "3d-scanners",
-    name: "3D Scanners",
+    name: "ZMEG FreeScan",
     short: "Metrology & Reverse Engineering",
     icon: "scan",
-    blurb: "Precision handheld and fixed 3D scanning systems for inspection, quality control and reverse engineering.",
+    blurb: "Precision handheld and fixed 3D free Scanning systems for inspection, quality control and reverse engineering.",
     products: [
       {
         id: "gc-hs-hw",
-        name: "ZMEG GC-HS / GC-HW Portable Handheld 3D Scanner",
+        name: "ZMEG GC-HS / GC-HW Portable Handheld FreeScan",
         tagline: "High speed, high precision, good price",
-        image: "https://www.goodcutcnc.com/Uploads/6195ada33cbb64228.jpg",
+        image: DScanners1,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/6195ada33cbb64228.jpg",
-          "https://www.goodcutcnc.com/Uploads/6195ada33d3045800.jpg",
-          "https://www.goodcutcnc.com/Uploads/6195ada33da755068.jpg",
-          "https://www.goodcutcnc.com/Uploads/6195ada33e1bf9529.jpg",
+         DScanners1,
+          // "https://www.goodcutcnc.com/Uploads/6195ada33d3045800.jpg",
+          // "https://www.goodcutcnc.com/Uploads/6195ada33da755068.jpg",
+          // "https://www.goodcutcnc.com/Uploads/6195ada33e1bf9529.jpg",
         ],
-        bullets: ["Handheld 3D scanner", "GC-HS / GC-HW models", "Good price", "High speed"],
-        description: "A portable handheld 3D scanner built for fast, high-precision digitizing of engine and mechanical parts. Two working modes cover both wide-area capture and fine detail work, with color texture support and a full mesh-processing software suite.",
+        bullets: ["Handheld FreeScan", "GC-HS / GC-HW models", "Good price", "High speed"],
+        description: "A portable handheld FreeScan built for fast, high-precision digitizing of engine and mechanical parts. Two working modes cover both wide-area capture and fine detail work, with color texture support and a full mesh-processing software suite.",
         specs: [
           ["Range of view", "GC-HS: 250mm (Std) / 100mm (Fine) — GC-HW: 400mm (Std) / 150mm (Fine)"],
           ["Point distance", "GC-HS: 0.25 / 0.12mm — GC-HW: 0.5 / 0.15mm"],
@@ -34,12 +89,10 @@ export const CATEGORIES = [
         id: "freescan-trak-nova",
         name: "ZMEG FreeScan Trak Nova",
         tagline: "Wireless multi-functional dynamic tracking & scanning system",
-        image: "https://www.goodcutcnc.com/Uploads/680d9be7c1c951648.jpg",
+        image: ZMEGFreeScanUENovalogo,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/680d9be7c1c951648.jpg",
-          "https://www.goodcutcnc.com/Uploads/680d9be7c20bc9506.jpg",
-          "https://www.goodcutcnc.com/Uploads/680d9be7c256e8954.jpg",
-          "https://www.goodcutcnc.com/Uploads/680d9be7c29d38552.jpg",
+         ZMEGFreeScanUENovalogo,
+        VPG2,
         ],
         bullets: ["Integrated Video Photogrammetry (VPG)", "Flexible & separable system", "Compact, agile dynamic tracking", "Wireless & lightweight"],
         description: "Small in form, big on performance. From construction machinery to rail transit, civil aviation to energy, Trak Nova is built for accurate, efficient large-scale measurement with extreme portability. It includes a detachable handheld scanner (also usable standalone) with the largest field of view in its class.",
@@ -48,19 +101,19 @@ export const CATEGORIES = [
           ["FOV", "Up to 2.6 × 2.2 m"],
           ["Positioning", "Patented Video Photogrammetry (VPG) — no coded markers"],
           ["Batteries", "Swappable / hot-swap for continuous operation"],
-          ["Weight", "TE Nova: 1.2kg — UE Nova: 1.6kg"],
+          ["Weight", "TE Nova: 1.2kg — UI Nova: 1.6kg"],
           ["Connectivity", "Fully wireless, integrated computing modules"],
         ],
       },
       {
         id: "freescan-ue-nova",
-        name: "ZMEG FreeScan UE Nova",
-        tagline: "Wireless metrology 3D scanner for greater reach",
+        name: "ZMEG FreeScan UI Nova",
+        tagline: "Wireless metrology free Scanner for greater reach",
         image: "https://www.shining3d.com/hubfs/FreeScan%20UE%20Nova%20-%20Scanning%20Pipeline.png",
         gallery: [
           "https://www.shining3d.com/hubfs/FreeScan%20UE%20Nova%20-%20Scanning%20Pipeline.png",
           "https://www.shining3d.com/hs-fs/hubfs/FOV-2.png",
-          "https://www.shining3d.com/hs-fs/hubfs/3%20working%20range.png",
+         ZMEGFreeScanUENovalogo1,
           "https://www.shining3d.com/hs-fs/hubfs/VPG-2.png",
         ],
         bullets: ["Extra-large FOV of 2.6 × 2.2 m", "Ultra-fast scan speed", "Integrated Video Photogrammetry (VPG)", "Complete wireless"],
@@ -77,12 +130,12 @@ export const CATEGORIES = [
       },
       {
         id: "freescan-ue-pro2",
-        name: "ZMEG FreeScan UE Pro2",
-        tagline: "Wireless multifunctional laser handheld 3D scanner",
-        image: "https://www.shining3d.com/hubfs/FreeScan%20UE%20Pro2%20(5).jpg",
+        name: "ZMEG FreeScan UI Pro2",
+        tagline: "Wireless multifunctional laser handheld free Scanner",
+        image: ZMEGFreeScanUEPro2,
         gallery: [
-          "https://www.shining3d.com/hubfs/FreeScan%20UE%20Pro2%20(5).jpg",
-          "https://www.shining3d.com/hs-fs/hubfs/%E6%96%B0%E7%BD%91%E9%A1%B5%E9%85%8D%E5%9B%BE-267.png",
+          ZMEGFreeScanUEPro2,
+          ZMEGFreeScanUEPro22,
           "https://www.shining3d.com/hs-fs/hubfs/%E6%96%B0%E7%BD%91%E9%A1%B5%E9%85%8D%E5%9B%BE-271.png",
         ],
         bullets: ["Wireless, 950g", "Scan speed up to 3,460,000 pts/s", "Video Photogrammetry (VPG)", "Quick on-site inspection"],
@@ -98,13 +151,13 @@ export const CATEGORIES = [
       },
       {
         id: "freescan-ue-pro",
-        name: "ZMEG FreeScan UE Pro",
-        tagline: "Metrology-grade laser handheld 3D scanner · Reddot 2024 winner",
-        image: "https://www.shining3d.com/hubfs/Website-2024/Featured%20image(website%20pages%20only)/Product%20FreeScan%20UE%20Pro.jpg",
+        name: "ZMEG FreeScan UI Pro",
+        tagline: "Metrology-grade laser handheld free Scanner · Reddot 2024 winner",
+        image: ZMEGFreeScanUEPro,
         gallery: [
-          "https://www.shining3d.com/hubfs/Website-2024/Featured%20image(website%20pages%20only)/Product%20FreeScan%20UE%20Pro.jpg",
-          "https://www.shining3d.com/hs-fs/hubfs/%E6%96%B0%E7%BD%91%E9%A1%B5%E9%85%8D%E5%9B%BE-103-1.png",
-          "https://www.shining3d.com/hs-fs/hubfs/UEP.jpg",
+          ZMEGFreeScanUEPro,
+         ZMEGFreeScanUEPro1,
+         ZMEGFreeScanUEPro23
         ],
         bullets: ["Accuracy of 0.02mm with markers", "Speed up to 1,850,000 pts/s", "3 scanning modes + built-in photogrammetry", "Reddot Award 2024"],
         description: "Inherits the high-precision, lightweight design of the FreeScan UE series while adding global precision control for large-scale workpieces. Designated as the official scanner for the Additive Manufacturing skill at WorldSkills Competitions.",
@@ -119,13 +172,13 @@ export const CATEGORIES = [
       },
       {
         id: "optimscan-q12-q9",
-        name: "ZMEG OptimScan Q12 / Q9",
+        name: "ZMEG OptimScan X17",
         tagline: "High-precision fixed 3D inspection scanners",
-        image: "https://www.shining3d.com/hubfs/OptimScan%20Q12.webp",
+        image: ZMEGOptimScanQ12Q9,
         gallery: [
-          "https://www.shining3d.com/hubfs/OptimScan%20Q12.webp",
-          "https://www.shining3d.com/hs-fs/hubfs/Q12%E7%BD%91%E9%A1%B5%E5%9B%BE_1.webp",
-          "https://www.shining3d.com/hs-fs/hubfs/Q12%E7%BD%91%E9%A1%B5%E5%9B%BE_3.webp",
+          ZMEGOptimScanQ12Q9,
+          ZMEGOptimScanQ12Q91,
+         ZMEGOptimScanQ12Q92
         ],
         bullets: ["Dual scan range", "Monocular-Stereo Fusion (MSF)", "Multiple exposure", "Single shot under 1 second"],
         description: "Four high-resolution cameras and a built-in dual-chip computing module deliver dense, high-accuracy point clouds in under a second per shot. Switch scan ranges with a single click — no manual aperture or focal adjustment.",
@@ -151,12 +204,11 @@ export const CATEGORIES = [
         id: "gc1325atc-4axis",
         name: "ZMEG GC1325ATC 4-Axis Strong Frame CNC Router",
         tagline: "Big size, rotated ATC spindle for 3D engraving",
-        image: "https://www.goodcutcnc.com/Uploads/655ad406aff276085.jpg",
+        image: CNCRouter1,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/655ad406aff276085.jpg",
-          "https://www.goodcutcnc.com/Uploads/655ad406b01ad4313.jpg",
-          "https://www.goodcutcnc.com/Uploads/655ad406b04355410.jpg",
-          "https://www.goodcutcnc.com/Uploads/655ad406b06c48676.jpg",
+          CNCRouter1,
+          CNCRouter2,
+          CNCRouter3
         ],
         bullets: ["Linear ATC device", "180° rotated spindle", "High Z axis", "Sunk table"],
         description: "A heavy-duty, weld-steel frame router with a 10/12-piece linear tool magazine and a 9kW rotated spindle for true 3D engraving. Servo-driven on every axis with Taiwan HIWIN rails for long-term accuracy under continuous production.",
@@ -171,19 +223,19 @@ export const CATEGORIES = [
       },
       {
         id: "gc1325atc-caxis",
-        name: "ZMEG GC1325ATC C-Axis (Italy HSD)",
+        name: "ZMEG GC1325ATC C-Axis",
         tagline: "HSD aggregate ATC router with automatic tool changer",
-        image: "https://www.goodcutcnc.com/Uploads/16595054745e7b2745daa825161.jpg",
+        image: CNCRouter4,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/16595054745e7b2745daa825161.jpg",
-          "https://www.goodcutcnc.com/Uploads/16595054745e7b2745dac028396.jpg",
-          "https://www.goodcutcnc.com/Uploads/16595054745e7b2745dad9f8569.jpg",
+          CNCRouter4,
+          CNCRouter5,
+          CNCRouter6
         ],
-        bullets: ["Italy HSD C-axis for drilling", "9kW Italy HSD spindle", "Taiwan Syntec controller", "Linear 10pcs tool magazine"],
+        bullets: ["C-axis for drilling", "9kW spindle", "Taiwan Syntec controller", "Linear 10pcs tool magazine"],
         description: "Built around an Italian HSD aggregate head that rotates a full 180°, this router handles milling, boring and drilling in addition to standard ATC engraving — with a 10-piece linear magazine keeping changeovers fast.",
         specs: [
           ["Working area", "1300×2500×200mm"],
-          ["Spindle", "Italy HSD951 9kW air-cooled with C-axis ATC"],
+          ["Spindle", "9kW air-cooled with C-axis ATC"],
           ["Control system", "Taiwan Syntec 60W-E"],
           ["Motor", "Yaskawa 850W servo, C-axis 400W"],
           ["Tool magazine", "Linear, 10pcs incl. 2 angle-head holders"],
@@ -194,12 +246,11 @@ export const CATEGORIES = [
         id: "gc1325-5axis-400z",
         name: "ZMEG GC1325 5-Axis Wood/Foam/EPS Router",
         tagline: "400mm Z-axis for deep 3D sculpture and mould work",
-        image: "https://www.goodcutcnc.com/Uploads/682d8d7765e472277.jpg",
+        image: CNCRouter7,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/682d8d7765e472277.jpg",
-          "https://www.goodcutcnc.com/Uploads/682d8d77661cd1592.jpg",
-          "https://www.goodcutcnc.com/Uploads/682d8d77665207491.jpg",
-          "https://www.goodcutcnc.com/Uploads/682d8d77670268102.jpg",
+          CNCRouter7,
+          CNCRouter8,
+          CNCRouter9
         ],
         bullets: ["ATC CNC router", "True 5-axis machine", "Automatic tool changer", "400mm Z-axis"],
         description: "Designed for complex three-dimensional workpieces — auto foam moulds, wooden ship and aviation moulds, and large sculptural forms — with an integrated cast structure and a heightened Z-axis for deep-relief cutting.",
@@ -225,11 +276,11 @@ export const CATEGORIES = [
         id: "gc1530f-highquality",
         name: "ZMEG GC1530F Fiber Laser Cutting Machine",
         tagline: "For cutting stainless steel & carbon steel",
-        image: "https://www.goodcutcnc.com/Uploads/69749f85978301070.jpg",
+        image: FiberLaserCuttingMachine1,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/69749f85978301070.jpg",
-          "https://www.goodcutcnc.com/Uploads/69749f8597c976729.jpg",
-          "https://www.goodcutcnc.com/Uploads/69749f85983d91029.jpg",
+         FiberLaserCuttingMachine1,
+         FiberLaserCuttingMachine2,
+         FiberLaserCuttingMachine3,
         ],
         bullets: ["Control system: Cypcut", "Laser power 1kW–12kW", "Raycus / MAX / IPG source", "Japan Fuji / Yaskawa servo"],
         description: "A heavy industrial-steel-structure cutting bed with a France Schneider servo system and Japan THK linear rail, tuned for continuous multi-shift production of sheet metal parts.",
@@ -246,11 +297,11 @@ export const CATEGORIES = [
         id: "gc1530f-newdesign",
         name: "ZMEG GC1530F New Design Fiber Laser Cutting Machine",
         tagline: "For SS / CS cutting",
-        image: "https://www.goodcutcnc.com/Uploads/67d2af32c16ba6828.jpg",
+        image: FiberLaserCuttingMachine4,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/67d2af32c16ba6828.jpg",
-          "https://www.goodcutcnc.com/Uploads/67d2af32c1b636896.jpg",
-          "https://www.goodcutcnc.com/Uploads/67d2af32c20085833.jpg",
+             FiberLaserCuttingMachine4,
+         FiberLaserCuttingMachine5,
+         FiberLaserCuttingMachine6,
         ],
         bullets: ["Control system: Cypcut", "Laser power 1kW–12kW", "Raycus / MAX / IPG source", "Japan Fuji / Yaskawa servo"],
         description: "An updated frame and cabling layout on ZMEG's proven 1500×3000mm cutting platform, with the same industrial-grade drive train and a Raytools cutting head for fast, clean perforation on thick plate.",
@@ -267,11 +318,10 @@ export const CATEGORIES = [
         id: "gc1530f-independent-cabinet",
         name: "ZMEG GC1530F Fiber Laser Cutting Machine, Independent Cabinet",
         tagline: "For SS / CS / MS / Al / Cu cutting",
-        image: "https://www.goodcutcnc.com/Uploads/63198437423265856.jpg",
+        image:   FiberLaserCuttingMachine7,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/63198437423265856.jpg",
-          "https://www.goodcutcnc.com/Uploads/63198437425f89631.jpg",
-          "https://www.goodcutcnc.com/Uploads/6319843742a895018.jpg",
+           FiberLaserCuttingMachine7,
+         FiberLaserCuttingMachine8,
         ],
         bullets: ["1500×3000mm bed", "Raycus / Max / IPG laser source", "Raytools laser head", "Independent electrical cabinet"],
         description: "Keeps the control electronics in a separate, sealed cabinet away from cutting dust and heat — extending component life on high-duty-cycle production lines cutting a mix of metals.",
@@ -297,11 +347,11 @@ export const CATEGORIES = [
         id: "gc1010-wholecover",
         name: "ZMEG Whole Cover Fiber Laser Marking Machine GC1010",
         tagline: "Enclosed cabinet marking station",
-        image: "https://www.goodcutcnc.com/Uploads/686750372a11d6268.jpg",
+        image: LaserMarkingMachine1,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/686750372a11d6268.jpg",
-          "https://www.goodcutcnc.com/Uploads/686750372a398322.jpg",
-          "https://www.goodcutcnc.com/Uploads/686750372a6987571.jpg",
+         LaserMarkingMachine1,
+         LaserMarkingMachine2,
+         LaserMarkingMachine3,
         ],
         bullets: ["Marking size 110×110mm", "20W / 30W / 50W laser power", "Raycus / Germany IPG source", "Metal + part nonmetal"],
         description: "A fully enclosed fiber laser marking station for barcodes, serial numbers, 2D data matrix codes and graphics — with an imported isolator protecting the laser generator and extending service life.",
@@ -318,11 +368,11 @@ export const CATEGORIES = [
         id: "belt-conveyor-flying",
         name: "ZMEG Belt Conveyor Flying Marking Machine",
         tagline: "In-line marking for moving production",
-        image: "https://www.goodcutcnc.com/Uploads/5e75ade4747568410.jpg",
+        image: LaserMarkingMachine4,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/5e75ade4747568410.jpg",
-          "https://www.goodcutcnc.com/Uploads/5e75ade4748e31883.jpg",
-          "https://www.goodcutcnc.com/Uploads/5e75ade474ace6731.jpg",
+         LaserMarkingMachine4,
+         LaserMarkingMachine5,
+         LaserMarkingMachine6
         ],
         bullets: ["Marking area up to 300×300mm", "Fiber 10–50W / CO2 80–100W", "IPG / Raycus / MAX source", "All metal + part plastic"],
         description: "Flying-mark laser printer built into a belt conveyor line, for date codes and batch numbers on parts moving at production speed — zero consumables, zero ink, and no contact wear.",
@@ -339,8 +389,8 @@ export const CATEGORIES = [
         id: "desktop-fiber-gc1010",
         name: "ZMEG Desktop Fiber Marking Machine GC1010",
         tagline: "Compact benchtop marking station",
-        image: "https://www.goodcutcnc.com/Uploads/5e71d676dea132831.jpg",
-        gallery: ["https://www.goodcutcnc.com/Uploads/5e71d676dea132831.jpg"],
+        image: LaserMarkingMachine7,
+        gallery: [LaserMarkingMachine7],
         bullets: ["Marking size 110×110mm", "20W / 30W / 50W laser power", "Raycus / Germany IPG source", "Metal + part nonmetal"],
         description: "A benchtop marking system for workshops and QA stations needing traceability marks without a full production line — same beam quality and precision as ZMEG's industrial marking machines in a compact footprint.",
         specs: [
@@ -365,11 +415,11 @@ export const CATEGORIES = [
         id: "gc1530wl-s",
         name: "ZMEG GC1530WL-S Wood Turning Lathe",
         tagline: "Screw lathe spindle",
-        image: "https://www.goodcutcnc.com/Uploads/60daa4ca3bef69696.jpg",
+        image: WoodLatheMachine1,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/60daa4ca3bef69696.jpg",
-          "https://www.goodcutcnc.com/Uploads/60daa4ca3c3352174.jpg",
-          "https://www.goodcutcnc.com/Uploads/60daa4ca3c86a6415.jpg",
+          WoodLatheMachine1,
+          WoodLatheMachine2,
+          WoodLatheMachine3,
         ],
         bullets: ["1500mm length, 300mm diameter", "Double cutter", "Fuling inverter", "Turning-screw spindle"],
         description: "A single-axis, double-cutter wood lathe with a turning-screw spindle that engraves right after lathing — built on Germany ball screw and Taiwan PMI guide rail for long service life on table legs and balusters.",
@@ -386,11 +436,11 @@ export const CATEGORIES = [
         id: "gc1530wl-ds",
         name: "ZMEG GC1530WL-DS Double Axis CNC Wood Turning Lathe",
         tagline: "Turning + engraving spindle",
-        image: "https://www.goodcutcnc.com/Uploads/5e6a07a81f9447958.jpg",
+        image: WoodLatheMachine4,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/5e6a07a81f9447958.jpg",
-          "https://www.goodcutcnc.com/Uploads/5e6a07a81fa672961.jpg",
-          "https://www.goodcutcnc.com/Uploads/5e6a07a81fb936102.jpg",
+         WoodLatheMachine4,
+         WoodLatheMachine5,
+         WoodLatheMachine6,
         ],
         bullets: ["1500mm length, 300mm dia (custom 400mm)", "Double cutter, 2-axis", "YAKO inverter", "Ball screw X/Z, gear Y"],
         description: "Two cutters working synchronously in a layered process for higher throughput on repeat parts, with a heavy cast-iron bed to keep the spindle stable at speed and a DSP handle controller that skips the need for a PC.",
@@ -407,11 +457,11 @@ export const CATEGORIES = [
         id: "gc1530wl-af",
         name: "ZMEG GC1530WL-AF Auto Feeding Industrial Wood Turning Lathe",
         tagline: "Automatic feeding for mass production",
-        image: "https://www.goodcutcnc.com/Uploads/5e9176c5263611653.jpg",
+        image: WoodLatheMachine7,
         gallery: [
-          "https://www.goodcutcnc.com/Uploads/5e9176c5263611653.jpg",
-          "https://www.goodcutcnc.com/Uploads/5e9176c5264c76441.jpg",
-          "https://www.goodcutcnc.com/Uploads/5e9176c52660f6880.jpg",
+         WoodLatheMachine7,
+         WoodLatheMachine8,
+         WoodLatheMachine9,
         ],
         bullets: ["Full automatic feeding", "Single axis, turning + engraving spindle", "Ball screw X/Z, gear Y", "High-speed lathe cutter"],
         description: "Automatic timber loading and centering removes the manual handling step entirely, making this the lathe of choice for runs of identical parts — staircase balusters, baseball bats, or table legs — at production scale.",

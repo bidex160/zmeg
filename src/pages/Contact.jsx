@@ -110,9 +110,9 @@ export default function Contact() {
 
         <div className="contact-info">
           <h3>Direct Contact</h3>
-          <p><Mail size={16} /> sales@zmeg-machinery.com</p>
-          <p><Phone size={16} /> +86 183 9685 7273</p>
-          <p><MessageCircle size={16} /> WhatsApp / WeChat: +86 183 9685 7273</p>
+          <p><Mail size={16} /> sales@zmeg-group.com</p>
+          {/* <p><Phone size={16} /> +86 183 9685 7273</p>
+          <p><MessageCircle size={16} /> WhatsApp / WeChat: +86 183 9685 7273</p> */}
           <p><MapPin size={16} /> High-tech District, Jinan City, Shandong Province, China</p>
           <div className="contact-note">
             <h4>Good Service, by the numbers</h4>

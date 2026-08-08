@@ -46,7 +46,6 @@ src/
 
 ## Known follow-ups
 
-- **Product images**: goodcutcnc.com (and some shining3d.com assets) sit behind
   hotlink protection, so `src/lib/proxyImage.js` routes images through
   `images.weserv.nl` as a read-only proxy, with graceful fallback if that also
   fails (see `ProductImage.jsx`). For a real production launch, download and

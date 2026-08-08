@@ -7,11 +7,19 @@ import SectionEyebrow from "../components/SectionEyebrow";
 import { COMPANY } from "../data/company";
 import { ICONS } from "../lib/icons";
 import teamPhoto from "../assets/team-photo.jpg";
+import aboutUS from "../assets/about-us.jpeg";
+import Breadcrumb from "../components/Breadcrumb";
 
 export default function About() {
   const navigate = useNavigate();
 
   return (
+    <>
+     <Breadcrumb
+            image={aboutUS}
+            title="About Us"
+            trail={[{ label: "Home", to: "/" }, { label: "About Us" }]}
+     />
     <section className="section section--paper">
       <SectionEyebrow>ABOUT ZMEG</SectionEyebrow>
       <h1 className="section-title">{COMPANY.fullName}</h1>
@@ -56,5 +64,6 @@ export default function About() {
         <HazardButton onClick={() => navigate("/contact")}>Contact ZMEG</HazardButton>
       </div>
     </section>
+    </>
   );
 }
