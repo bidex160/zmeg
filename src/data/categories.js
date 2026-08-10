@@ -57,7 +57,7 @@ import LaserMarkingMachine7 from './../assets/products/Laser Marking Machine7.pn
 export const CATEGORIES = [
   {
     slug: "3d-scanners",
-    name: "ZMEG FreeScan",
+    name: "ZMEG 3D scanner",
     short: "Metrology & Reverse Engineering",
     icon: "scan",
     blurb: "Precision handheld and fixed 3D free Scanning systems for inspection, quality control and reverse engineering.",

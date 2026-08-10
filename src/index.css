@@ -318,13 +318,8 @@ button { font-family: inherit; cursor: pointer; }
 .footer-col > div {  /* or whatever wraps the p/img/p row */
   display: flex;
   align-items: center;
-  gap: 12px; /* tweak this number to taste — this IS your "in between" spacing */
+  justify-content: center;
 }
-
-.footer-col > div > p {
-  margin: 0; /* kill default p margins, which stack with gap and exaggerate spacing */
-}
-
-.footer-col > div > img.brand-logo {
-  flex-shrink: 0;
+.footer-col > p:first-child{
+  text-align: center;
 }
