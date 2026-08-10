@@ -22,8 +22,6 @@ export default function Footer() {
    />
 </div>
 
-
-    {/* <p>Zhejiang Machinery</p> */}
   <p>Zhejiang Machinery Electric Group Co., Ltd.</p>
    
    <p></p> 

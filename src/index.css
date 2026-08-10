@@ -315,11 +315,13 @@ button { font-family: inherit; cursor: pointer; }
 .breadcrumb-current { color: var(--amber); }
 @media (max-width: 640px) { .breadcrumb-banner { height: 190px; } }
 
-.footer-col > div {  /* or whatever wraps the p/img/p row */
+.footer-col > div {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.footer-col > p:first-child{
-  text-align: center;
+
+.footer-col > div img {
+  display: block;
+  margin: 0 auto;
 }
