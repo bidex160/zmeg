@@ -13,12 +13,19 @@ export default function Footer() {
 
 
         <div className="footer-col">
+
+  <div className="flex gap-3">
+    {/* <p>Zhejiang Machinery</p> */}
+  <p>Zhejiang<br />Machinery</p>
    <img 
      src={logo} 
      alt="ZMEG — Zhejiang Machinery & Electric Group" 
      className="brand-logo" 
    />
-  <p>{COMPANY.fullName}</p>
+   <p>Electric Group <br/> Co., Ltd.</p> 
+
+  </div>
+   
   <p className="muted">{COMPANY.about}</p>
 </div>
 

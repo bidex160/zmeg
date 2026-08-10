@@ -286,12 +286,12 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .brand-logo {
-  height: 40px; /* adjust to your header height */
+  height: 70px; /* adjust to your header height */
   width: auto;
   display: block;
 }
 .footer-logo {
-  height: 36px; /* smaller than header logo */
+  height: 46px; /* smaller than header logo */
   width: auto;
   display: block;
   margin-bottom: 12px;
@@ -314,3 +314,17 @@ button { font-family: inherit; cursor: pointer; }
 .breadcrumb-trail a:hover { color: var(--amber); }
 .breadcrumb-current { color: var(--amber); }
 @media (max-width: 640px) { .breadcrumb-banner { height: 190px; } }
+
+.footer-col > div {  /* or whatever wraps the p/img/p row */
+  display: flex;
+  align-items: center;
+  gap: 12px; /* tweak this number to taste — this IS your "in between" spacing */
+}
+
+.footer-col > div > p {
+  margin: 0; /* kill default p margins, which stack with gap and exaggerate spacing */
+}
+
+.footer-col > div > img.brand-logo {
+  flex-shrink: 0;
+}
